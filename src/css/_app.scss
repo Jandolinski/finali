@@ -1,0 +1,40 @@
+$primary: black;
+$secondary: red;
+$light: lighten($primary, 20);
+
+// timings
+$timing: ease-in-out;
+$transition: all .25s $timing;
+
+// paddings
+$p-s: 30px;
+$p-m: 60px;
+$p-b: 100px;
+
+// breakpoints
+$phone: 600px;
+$tablet: 769px;
+$laptop: 1260px;
+$desktop: 1400px;
+
+// mobile
+$mobile: 1025px;
+
+// define with of project (in px but dont include px) to recalculate px to vw;
+$projectWidth: 1920;
+// project grid size
+$gridWidth: 1680px;
+
+
+// mixins
+// @import 'lib/_helpers';
+
+// reset.css
+@import '_reset';
+@import '_template-homepage';
+// libraries
+//  @import 'lib/_aoe';
+// @import 'lib/fancybox';
+
+// // wordpress image aligns
+// // @import 'lib/wp';
