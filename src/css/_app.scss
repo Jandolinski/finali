@@ -4,7 +4,7 @@ $light: lighten($primary, 20);
 
 // timings
 $timing: ease-in-out;
-$transition: all .25s $timing;
+$transition: all 0.25s $timing;
 
 // paddings
 $p-s: 30px;
@@ -25,13 +25,15 @@ $projectWidth: 1920;
 // project grid size
 $gridWidth: 1680px;
 
-
 // mixins
 // @import 'lib/_helpers';
 
 // reset.css
 @import '_reset';
+@import '_header';
+@import '_footer';
 @import '_template-homepage';
+@import '_template-about';
 // libraries
 //  @import 'lib/_aoe';
 // @import 'lib/fancybox';

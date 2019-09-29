@@ -1,0 +1,139 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.btn {
+  color: #c30e42;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.btn--primary {
+  border-radius: 26px;
+  background-color: #c30e42;
+  color: #fff;
+  padding: 9px 27px;
+  transition: 0.3s background-color ease-in-out;
+
+  &:hover {
+    background-color: #141650;
+  }
+}
+
+.text--color {
+  color: #c30e42;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 30px 100px;
+
+  &__group {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  &__logo {
+    .logo__img {
+      display: block;
+    }
+  }
+
+  &__nav {
+    .nav__list {
+      display: flex;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: 500;
+
+      .list--item {
+        margin-left: 50px;
+
+        a {
+          position: relative;
+
+          &::after {
+            position: absolute;
+            bottom: -5px;
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background-color: #af0f46;
+            transition: width 0.3s;
+          }
+
+          &:hover {
+            &::after {
+              width: 100%;
+            }
+          }
+        }
+
+        &.active {
+          a {
+            &::after {
+              position: absolute;
+              bottom: -5px;
+              content: '';
+              display: block;
+              width: 100%;
+              height: 2px;
+              background-color: #af0f46;
+              transition: width 0.3s;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &__social {
+    display: flex;
+
+    a {
+      margin: 0 5px;
+    }
+
+    .social__img {
+      display: block;
+    }
+  }
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  /* for edge cases: */
+  width: 100%;
+  max-width: 100%;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
