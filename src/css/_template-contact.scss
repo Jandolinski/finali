@@ -1,0 +1,109 @@
+.contact__cover {
+    width: 2557px;
+    height: 2556px;
+    background-color: #f4f4f4;
+    border-radius: 182px;
+    position: absolute;
+    z-index: -1;
+    top: -76%;
+    left: -117%;
+    transform: rotate(45deg);
+    opacity: 0.5;
+}
+
+.contact {
+    margin-top: 220px;
+    margin-bottom: 170px;
+    position: relative;
+
+    .container {
+        display: flex;
+    }
+
+    .decorator__shape--double {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: -5%;
+    }
+
+    .decorator__shape--single {
+        position: absolute;
+        bottom: -82px;
+        left: 84px;
+
+    }
+
+    .contact {
+
+
+        &__col {
+            max-width: 520px;
+
+            form {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+
+                input[type="text"],
+                input[type="tel"],
+                input[type="email"],
+                textarea {
+                    width: 100%;
+                    border-bottom: 2px solid #c30e42;
+                    padding-bottom: 15px;
+                    padding-left: 4px;
+                    margin: 10px 0;
+                    color: #000000;
+                    opacity: 0.61;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 34px;
+                }
+
+                textarea {
+                    resize: none;
+                }
+            }
+
+            &--text {
+                width: 50%;
+            }
+        }
+
+        &__submit {
+            margin-top: 50px;
+            display: flex;
+            width: 100%;
+            justify-content: flex-end;
+        }
+
+        &__heading {
+            color: #c30e42;
+            font-size: 34px;
+            font-weight: 700;
+            line-height: 55px;
+            margin-bottom: 70px;
+        }
+
+        &__address {
+            margin-bottom: 20px;
+        }
+
+        &__address,
+        &__phone,
+        &__mail {
+            color: #000000;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 34px;
+        }
+
+        &__icon {
+            height: 17px;
+            margin-right: 10px;
+        }
+    }
+}
