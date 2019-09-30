@@ -35,9 +35,112 @@ $gridWidth: 1680px;
 @import '_template-homepage';
 @import '_template-about';
 @import '_template-offer';
+@import '_template-contact';
 // libraries
 //  @import 'lib/_aoe';
 // @import 'lib/fancybox';
 
 // // wordpress image aligns
 // // @import 'lib/wp';
+
+.checkbox input[type="checkbox"] {
+    opacity: 0;
+}
+
+.checkbox label {
+    position: relative;
+    display: inline-block;
+
+    /*16px width of fake checkbox + 6px distance between fake checkbox and text*/
+    padding-left: 22px;
+    opacity: 0.61;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.checkbox label::before,
+.checkbox label::after {
+    position: absolute;
+    content: "";
+
+    /*Needed for the line-height to take effect*/
+    display: inline-block;
+}
+
+/*Outer box of the fake checkbox*/
+.checkbox label::before {
+    height: 16px;
+    width: 16px;
+
+    border: 2px solid #c30e42;
+    left: 0px;
+
+    /*(24px line-height - 16px height of fake checkbox) / 2 - 1px for the border
+     *to vertically center it.
+     */
+    top: 3px;
+}
+
+/*Checkmark of the fake checkbox*/
+.checkbox label::after {
+    height: 5px;
+    width: 9px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+
+    transform: rotate(-45deg);
+
+    left: 4px;
+    top: 7px;
+}
+
+/*Hide the checkmark by default*/
+.checkbox input[type="checkbox"]+label::after {
+    content: none;
+}
+
+/*Unhide on the checked state*/
+.checkbox input[type="checkbox"]:checked+label::after {
+    content: "";
+    color: #000;
+}
+
+/*Adding focus styles on the outer-box of the fake checkbox*/
+.checkbox input[type="checkbox"]:focus+label::before {
+    outline: #c30e42 auto 5px;
+}
+
+.decorator__shape--double {
+    .large {
+        width: 324px;
+        height: 324px;
+        border-radius: 64px;
+        border: 2px solid #c30e42;
+        position: relative;
+        transform: rotate(45deg);
+    }
+
+    .small {
+        width: 203px;
+        height: 204px;
+        border-radius: 44px;
+        border: 2px solid #c30e42;
+        position: absolute;
+        bottom: -74px;
+        left: 91%;
+        transform: translateX(-50%);
+    }
+}
+
+.decorator__shape--single {
+    .large {
+        width: 324px;
+        height: 324px;
+        border-radius: 64px;
+        border: 2px solid #c30e42;
+        position: relative;
+        transform: rotate(45deg);
+    }
+}
