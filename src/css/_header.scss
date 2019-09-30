@@ -39,6 +39,8 @@ body {
   justify-content: space-between;
   align-items: flex-end;
   padding: 30px 100px;
+  position: relative;
+  z-index: 2;
 
   &__group {
     display: flex;
@@ -102,6 +104,7 @@ body {
 
   &__social {
     display: flex;
+    z-index: 2;
 
     a {
       margin: 0 5px;
