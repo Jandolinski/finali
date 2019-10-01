@@ -19,14 +19,14 @@
           <img src="../dist/img/logo.svg" alt="" class="logo__img">
         </a>
       </div>
-      <nav class="header__nav">
+      <nav class="header__nav menu--desktop">
         <ul class="nav__list">
-          <li class="list--item">
+          <li class="list--item active">
             <a href="index.html">
               Home
             </a>
           </li>
-          <li class="list--item active">
+          <li class="list--item">
             <a href="o-nas.html">
               O nas
             </a>
@@ -49,6 +49,39 @@
         </ul>
       </nav>
     </div>
+
+    <button class="hamburger" aria-label="Menu">
+      <span class="hamburger__container" tabindex="-1">
+        <span class="hamburger__bars"></span>
+      </span>
+    </button>
+    <ul class="menu--mobile" id="mobile-menu">
+      <li class="list--item active">
+        <a href="index.html">
+          Home
+        </a>
+      </li>
+      <li class="list--item">
+        <a href="o-nas.html">
+          O nas
+        </a>
+      </li>
+      <li class="list--item">
+        <a href="oferta.html">
+          Oferta
+        </a>
+      </li>
+      <li class="list--item">
+        <a href="kontakt.html">
+          Kontakt
+        </a>
+      </li>
+      <li class="list--item">
+        <a href="blog.html">
+          Blog
+        </a>
+      </li>
+    </ul>
     <div class="header__social">
       <a href="#">
         <img src="../dist/img/icon__fb.svg" alt="" class="social__img">
@@ -219,6 +252,7 @@
       </div>
     </div>
   </footer>
+  <script src="../dist/js/hamburger.js"></script>
 </body>
 
 </html>

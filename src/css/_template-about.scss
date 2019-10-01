@@ -114,3 +114,32 @@
   bottom: 30px;
   left: 0;
 }
+
+@media screen and (max-width: 960px) {
+  .about__cover {
+    display: none;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .about .about__col--text {
+    width: 100%;
+    padding: 45px 20px 0;
+    order: 2;
+  }
+
+  .about .about__col__content {
+    margin-bottom: 50px;
+  }
+
+  .about .about__col {
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  .about .about__col__img {
+    height: auto;
+  }
+}

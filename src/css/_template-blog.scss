@@ -208,3 +208,19 @@
         }
     }
 }
+
+@media screen and (max-width: 960px) {
+    .blog .blog__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog .blog__boxes {
+        flex-direction: column;
+    }
+
+    .blog .blog__box__img {
+        width: 100%;
+    }
+
+}

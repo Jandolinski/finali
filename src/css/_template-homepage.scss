@@ -2,6 +2,7 @@
   &__banner {
     /* ROBOCZE */
     height: 80vh;
+    position: relative;
 
     .banner {
       &__shape {
@@ -14,8 +15,8 @@
         position: absolute;
         // top: -44%;
         // right: -21%;
-        top: -35%;
-        right: -7%;
+        top: -57%;
+        right: -10%;
         transform: rotate(45deg);
         z-index: -1;
 
@@ -55,8 +56,8 @@
           z-index: 1;
           // top: -40%;
           // left: -98%;
-          top: -12%;
-          left: -62%;
+          top: -50%;
+          left: -66%;
           transform: rotate(45deg);
           opacity: 0.5;
         }
@@ -365,5 +366,85 @@
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .homepage__banner {
+    margin-top: 90px;
+    height: auto;
+  }
+
+  .homepage__banner .banner__shape__cover {
+    width: 200vw;
+    height: 200vw;
+    top: -37%;
+    left: -158%;
+    display: none;
+  }
+
+  .homepage__banner .banner__buttons {
+    margin-top: 60px;
+  }
+
+  .homepage__banner .banner__content {
+    position: relative;
+    top: unset;
+    left: unset;
+    width: 100%;
+    max-width: 100%;
+    z-index: 0;
+  }
+
+  .homepage__banner .banner__shape {
+    display: none;
+  }
+
+  .decorator__shape--double,
+  .decorator__shape--single {
+    display: none;
+  }
+
+  .homepage__about,
+  .homepage__offer {
+    margin-top: 70px;
+    flex-direction: column;
+  }
+
+  .homepage__about .about__group {
+    width: 100%;
+  }
+
+  .homepage__about .about__content {
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .homepage__offer .offer__boxes {
+    flex-direction: column;
+  }
+
+  .homepage__offer .offer__separator {
+    display: none;
+  }
+
+  .homepage__advantages {
+    flex-direction: column;
+  }
+
+  .homepage__advantages .advantages__group {
+    order: 2;
+  }
+
+  .homepage__advantages .advantages__img {
+    max-width: 100%;
+  }
+
+  .homepage__advantages .advantages__boxes {
+    flex-direction: column;
+  }
+
+  .homepage__advantages .advantages__row {
+    flex-direction: column;
   }
 }
