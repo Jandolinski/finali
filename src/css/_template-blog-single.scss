@@ -1,6 +1,19 @@
 .blog-single {
     margin-top: 70px;
     margin-bottom: 130px;
+    position: relative;
+
+    .decorator__shape--double.left {
+        position: absolute;
+        left: -7%;
+        top: 10%;
+    }
+
+    .decorator__shape--double.right {
+        position: absolute;
+        right: -7%;
+        bottom: 10%;
+    }
 
     .blog-single {
         &__heading {

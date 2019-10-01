@@ -1,8 +1,34 @@
 .blog {
     margin-top: 60px;
     margin-bottom: 120px;
+    position: relative;
+
+    .decorator__shape--double.left {
+        position: absolute;
+        left: -7%;
+        top: 10%;
+    }
+
+    .decorator__shape--double.right {
+        position: absolute;
+        right: -7%;
+        bottom: 10%;
+    }
 
     .blog {
+        &__cover {
+            width: 100vw;
+            height: 100vw;
+            background-color: #f4f4f4;
+            border-radius: 182px;
+            position: absolute;
+            z-index: -1;
+            top: 0%;
+            left: -65%;
+            transform: rotate(45deg);
+            opacity: 0.5;
+        }
+
         &__heading {
             color: #c30e42;
             font-family: Montserrat;
