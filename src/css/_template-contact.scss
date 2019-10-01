@@ -1,12 +1,14 @@
 .contact__cover {
-    width: 2557px;
-    height: 2556px;
+
+
+    width: 100vw;
+    height: 100vw;
     background-color: #f4f4f4;
     border-radius: 182px;
     position: absolute;
     z-index: -1;
-    top: -76%;
-    left: -117%;
+    top: -130%;
+    left: -76%;
     transform: rotate(45deg);
     opacity: 0.5;
 }

@@ -12,362 +12,378 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="header__group">
-            <div class="header__logo">
-                <a href="#">
-                    <img src="../dist/img/logo.svg" alt="" class="logo__img">
-                </a>
+    <div class="loader">
+        <header class="header">
+            <div class="header__group">
+                <div class="header__logo">
+                    <a href="#">
+                        <img src="../dist/img/logo.svg" alt="" class="logo__img">
+                    </a>
+                </div>
+                <nav class="header__nav menu--desktop">
+                    <ul class="nav__list">
+                        <li class="list--item active">
+                            <a href="index.html">
+                                Home
+                            </a>
+                        </li>
+                        <li class="list--item">
+                            <a href="o-nas.html">
+                                O nas
+                            </a>
+                        </li>
+                        <li class="list--item">
+                            <a href="oferta.html">
+                                Oferta
+                            </a>
+                        </li>
+                        <li class="list--item">
+                            <a href="kontakt.html">
+                                Kontakt
+                            </a>
+                        </li>
+                        <li class="list--item">
+                            <a href="blog.html">
+                                Blog
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="header__nav menu--desktop">
-                <ul class="nav__list">
-                    <li class="list--item active">
-                        <a href="index.html">
-                            Home
-                        </a>
-                    </li>
-                    <li class="list--item">
-                        <a href="o-nas.html">
-                            O nas
-                        </a>
-                    </li>
-                    <li class="list--item">
-                        <a href="oferta.html">
-                            Oferta
-                        </a>
-                    </li>
-                    <li class="list--item">
-                        <a href="kontakt.html">
-                            Kontakt
-                        </a>
-                    </li>
-                    <li class="list--item">
-                        <a href="blog.html">
-                            Blog
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
 
-        <button class="hamburger" aria-label="Menu">
-            <span class="hamburger__container" tabindex="-1">
-                <span class="hamburger__bars"></span>
-            </span>
-        </button>
-        <ul class="menu--mobile" id="mobile-menu">
-            <li class="list--item active">
-                <a href="index.html">
-                    Home
+            <button class="hamburger" aria-label="Menu">
+                <span class="hamburger__container" tabindex="-1">
+                    <span class="hamburger__bars"></span>
+                </span>
+            </button>
+            <ul class="menu--mobile" id="mobile-menu">
+                <li class="list--item active">
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li class="list--item">
+                    <a href="o-nas.html">
+                        O nas
+                    </a>
+                </li>
+                <li class="list--item">
+                    <a href="oferta.html">
+                        Oferta
+                    </a>
+                </li>
+                <li class="list--item">
+                    <a href="kontakt.html">
+                        Kontakt
+                    </a>
+                </li>
+                <li class="list--item">
+                    <a href="blog.html">
+                        Blog
+                    </a>
+                </li>
+            </ul>
+            <div class="header__social">
+                <a href="#">
+                    <img src="../dist/img/icon__fb.svg" alt="" class="social__img">
                 </a>
-            </li>
-            <li class="list--item">
-                <a href="o-nas.html">
-                    O nas
+                <a href="#">
+                    <img src="../dist/img/icon__tw.svg" alt="" class="social__img">
                 </a>
-            </li>
-            <li class="list--item">
-                <a href="oferta.html">
-                    Oferta
+                <a href="#">
+                    <img src="../dist/img/icon__ig.svg" alt="" class="social__img">
                 </a>
-            </li>
-            <li class="list--item">
-                <a href="kontakt.html">
-                    Kontakt
-                </a>
-            </li>
-            <li class="list--item">
-                <a href="blog.html">
-                    Blog
-                </a>
-            </li>
-        </ul>
-        <div class="header__social">
-            <a href="#">
-                <img src="../dist/img/icon__fb.svg" alt="" class="social__img">
-            </a>
-            <a href="#">
-                <img src="../dist/img/icon__tw.svg" alt="" class="social__img">
-            </a>
-            <a href="#">
-                <img src="../dist/img/icon__ig.svg" alt="" class="social__img">
-            </a>
-        </div>
-    </header>
-    <main>
-        <section class="homepage__banner">
-            <div class="banner__shape">
-                <div class="banner__shape__img">
-                </div>
             </div>
-            <div class="banner__shape__cover"></div>
-            <div class="container">
-                <div class="banner__content">
-                    <h1 class="heading banner__heading">
-                        Alina <span class="text--color">Korsak</span>
-                        <span class="small">Ekspert finansowy</span>
-                    </h1>
-                    <p class="banner__description">
-                        Zaoszczędź swój czas i pieniądze poświęcone na poszukiwanie najlepszego kredytu i umów się na
-                        bezpłatne spotkanie z ekspertem, który określi Twoje preferencje kredytowe odpowiadającym Twoim
-                        oczekiwaniom.
-                    </p>
-                    <div class="banner__buttons">
-                        <a href="#" class="btn btn--primary">
-                            Kontakt
-                        </a>
-                        <a href="#" class="btn">
-                            Dowiedz się więcej
-                        </a>
+        </header>
+        <main>
+            <section class="homepage__banner">
+                <div class="banner__shape">
+                    <div class="banner__shape__img">
                     </div>
                 </div>
-            </div>
-            <div class="banner__decorator"></div>
-        </section>
-        <section class="homepage__about">
-            <div class="decorator__shape--double right">
-                <div class="large">
-                    <div class="small"></div>
-                </div>
-            </div>
-            <div class="about__group group--image">
-                <img src="../dist/img/homepage/homepage__about__img.png" alt="" class="about__img">
-                <div class="decorator__shape--single left">
-                    <div class="large"></div>
-                </div>
-            </div>
-            <div class="about__group">
+                <div class="banner__shape__cover"></div>
                 <div class="container">
-                    <div class="about__content">
-                        <h2 class="heading about__heading">
-                            O mnie
-                        </h2>
-                        <p class="about__description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna
-                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat. Duis
-                            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint
-                            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                            laborum. </p>
-                        <a href="#" class="btn btn--primary">Więcej</a>
+                    <div class="banner__content">
+                        <h1 class="heading banner__heading">
+                            Alina <span class="text--color">Korsak</span>
+                            <span class="small">Ekspert finansowy</span>
+                        </h1>
+                        <p class="banner__description">
+                            Zaoszczędź swój czas i pieniądze poświęcone na poszukiwanie najlepszego kredytu i umów się
+                            na
+                            bezpłatne spotkanie z ekspertem, który określi Twoje preferencje kredytowe odpowiadającym
+                            Twoim
+                            oczekiwaniom.
+                        </p>
+                        <div class="banner__buttons">
+                            <a href="#" class="btn btn--primary">
+                                Kontakt
+                            </a>
+                            <a href="#" class="btn">
+                                Dowiedz się więcej
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="homepage__offer">
-            <div class="container">
-                <h2 class="heading offer__heading">
-                    Nasza oferta
-                </h2>
-                <div class="offer__boxes">
-                    <div class="offer__box">
-                        <div class="box__content">
-                            <img src="../dist/img/homepage/homepage__offer__img--1.png" alt="" class="box__img">
-                            <div class="box__overlay">
-                                <img src="../dist/img/homepage/homepage__offer__icon--1.svg" alt="" class="box__icon">
-                            </div>
-                        </div>
-                        <p class="box__description">Kredyty hipoteczne</p>
-                    </div>
-                    <div class="offer__separator">
-                        <div class="dot"></div>
-                        <div class="dot"></div>
-                        <div class="dot"></div>
-                    </div>
-                    <div class="offer__box">
-                        <div class="box__content">
-                            <img src="../dist/img/homepage/homepage__offer__img--1.png" alt="" class="box__img">
-                            <div class="box__overlay">
-                                <img src="../dist/img/homepage/homepage__offer__icon--2.svg" alt="" class="box__icon">
-                            </div>
-                        </div>
-                        <p class="box__description">Kredyty hipoteczne</p>
-                    </div>
-                    <div class="offer__separator">
-                        <div class="dot"></div>
-                        <div class="dot"></div>
-                        <div class="dot"></div>
-                    </div>
-                    <div class="offer__box">
-                        <div class="box__content">
-                            <img src="../dist/img/homepage/homepage__offer__img--1.png" alt="" class="box__img">
-                            <div class="box__overlay">
-                                <img src="../dist/img/homepage/homepage__offer__icon--3.svg" alt="" class="box__icon">
-                            </div>
-                        </div>
-                        <p class="box__description">Kredyty hipoteczne</p>
-                    </div>
-                    <div class="offer__box">
-                        <div class="box__content">
-                            <img src="../dist/img/homepage/homepage__offer__img--1.png" alt="" class="box__img">
-                            <div class="box__overlay">
-                                <img src="../dist/img/homepage/homepage__offer__icon--4.svg" alt="" class="box__icon">
-                            </div>
-                        </div>
-                        <p class="box__description">Kredyty hipoteczne</p>
-                    </div>
-                    <div class="offer__separator">
-                        <div class="dot"></div>
-                        <div class="dot"></div>
-                        <div class="dot"></div>
-                    </div>
-                    <div class="offer__box">
-                        <div class="box__content">
-                            <img src="../dist/img/homepage/homepage__offer__img--1.png" alt="" class="box__img">
-                            <div class="box__overlay">
-                                <img src="../dist/img/homepage/homepage__offer__icon--5.svg" alt="" class="box__icon">
-                            </div>
-                        </div>
-                        <p class="box__description">Kredyty hipoteczne</p>
-                    </div>
-                    <div class="offer__separator">
-                        <div class="dot"></div>
-                        <div class="dot"></div>
-                        <div class="dot"></div>
-                    </div>
-                    <div class="offer__box">
-                        <div class="box__content">
-                            <img src="../dist/img/homepage/homepage__offer__img--1.png" alt="" class="box__img">
-                            <div class="box__overlay">
-                                <img src="../dist/img/homepage/homepage__offer__icon--6.svg" alt="" class="box__icon">
-                            </div>
-                        </div>
-                        <p class="box__description">Kredyty hipoteczne</p>
+                <div class="banner__decorator"></div>
+            </section>
+            <section class="homepage__about">
+                <div class="decorator__shape--double right">
+                    <div class="large">
+                        <div class="small"></div>
                     </div>
                 </div>
-                <p class="offer__description">Jesteśmy po to by Ci pomóc znaleźć najkorzystniejsze rozwiązanie i
-                    przeprowadzić Cię przez wszystkie niezbędne formalności. </p>
-                <a href="#" class="btn btn--primary">Sprawdź ofertę</a>
-            </div>
-            <div class="separator"></div>
-        </section>
-        <section class="homepage__advantages">
-            <div class="decorator__shape--double left">
-                <div class="large">
-                    <div class="small"></div>
+                <div class="about__group group--image">
+                    <img src="../dist/img/homepage/homepage__about__img.png" alt="" class="about__img">
+                    <div class="decorator__shape--single left">
+                        <div class="large"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="advantages__group">
-                <div class="advantages__content">
-                    <h2 class="heading advantages__heading">
-                        Co nas wyróżnia
+                <div class="about__group">
+                    <div class="container">
+                        <div class="about__content">
+                            <h2 class="heading about__heading">
+                                O mnie
+                            </h2>
+                            <p class="about__description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna
+                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip
+                                ex ea commodo consequat. Duis
+                                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                pariatur. Excepteur sint
+                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                                laborum. </p>
+                            <a href="#" class="btn btn--primary">Więcej</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="homepage__offer">
+                <div class="container">
+                    <h2 class="heading offer__heading">
+                        Nasza oferta
                     </h2>
-                    <div class="advantages__boxes">
-                        <div class="advantages__row">
-                            <div class="advantages__box">
-                                <img src="../dist/img/homepage/homepage__advantages__icon--1.svg" alt=""
-                                    class="box__icon">
-                                <h3 class="box__heading">Bogate doświadczenie</h3>
-                                <p class="box__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                    do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <div class="offer__boxes">
+                        <div class="offer__box">
+                            <div class="box__content">
+                                <img src="../dist/img/homepage/homepage__offer__img--1.png" alt="" class="box__img">
+                                <div class="box__overlay">
+                                    <img src="../dist/img/homepage/homepage__offer__icon--1.svg" alt=""
+                                        class="box__icon">
+                                </div>
                             </div>
-                            <div class="advantages__box">
-                                <img src="../dist/img/homepage/homepage__advantages__icon--2.svg" alt=""
-                                    class="box__icon">
-                                <h3 class="box__heading">Dążenie do celu</h3>
-                                <p class="box__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                    do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                            </div>
+                            <p class="box__description">Kredyty hipoteczne</p>
                         </div>
-                        <div class="advantages__row">
-                            <div class="advantages__box">
-                                <img src="../dist/img/homepage/homepage__advantages__icon--3.svg" alt=""
-                                    class="box__icon">
-                                <h3 class="box__heading">Indywidualne podejście</h3>
-                                <p class="box__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                    do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                            </div>
-                            <div class="advantages__box">
-                                <img src="../dist/img/homepage/homepage__advantages__icon--4.svg" alt=""
-                                    class="box__icon">
-                                <h3 class="box__heading">Bezpłatna konsultacja</h3>
-                                <p class="box__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                    do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                            </div>
+                        <div class="offer__separator">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
                         </div>
+                        <div class="offer__box">
+                            <div class="box__content">
+                                <img src="../dist/img/homepage/homepage__offer__img--1.png" alt="" class="box__img">
+                                <div class="box__overlay">
+                                    <img src="../dist/img/homepage/homepage__offer__icon--2.svg" alt=""
+                                        class="box__icon">
+                                </div>
+                            </div>
+                            <p class="box__description">Kredyty hipoteczne</p>
+                        </div>
+                        <div class="offer__separator">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                        <div class="offer__box">
+                            <div class="box__content">
+                                <img src="../dist/img/homepage/homepage__offer__img--1.png" alt="" class="box__img">
+                                <div class="box__overlay">
+                                    <img src="../dist/img/homepage/homepage__offer__icon--3.svg" alt=""
+                                        class="box__icon">
+                                </div>
+                            </div>
+                            <p class="box__description">Kredyty hipoteczne</p>
+                        </div>
+                        <div class="offer__box">
+                            <div class="box__content">
+                                <img src="../dist/img/homepage/homepage__offer__img--1.png" alt="" class="box__img">
+                                <div class="box__overlay">
+                                    <img src="../dist/img/homepage/homepage__offer__icon--4.svg" alt=""
+                                        class="box__icon">
+                                </div>
+                            </div>
+                            <p class="box__description">Kredyty hipoteczne</p>
+                        </div>
+                        <div class="offer__separator">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                        <div class="offer__box">
+                            <div class="box__content">
+                                <img src="../dist/img/homepage/homepage__offer__img--1.png" alt="" class="box__img">
+                                <div class="box__overlay">
+                                    <img src="../dist/img/homepage/homepage__offer__icon--5.svg" alt=""
+                                        class="box__icon">
+                                </div>
+                            </div>
+                            <p class="box__description">Kredyty hipoteczne</p>
+                        </div>
+                        <div class="offer__separator">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                        <div class="offer__box">
+                            <div class="box__content">
+                                <img src="../dist/img/homepage/homepage__offer__img--1.png" alt="" class="box__img">
+                                <div class="box__overlay">
+                                    <img src="../dist/img/homepage/homepage__offer__icon--6.svg" alt=""
+                                        class="box__icon">
+                                </div>
+                            </div>
+                            <p class="box__description">Kredyty hipoteczne</p>
+                        </div>
+                    </div>
+                    <p class="offer__description">Jesteśmy po to by Ci pomóc znaleźć najkorzystniejsze rozwiązanie i
+                        przeprowadzić Cię przez wszystkie niezbędne formalności. </p>
+                    <a href="#" class="btn btn--primary">Sprawdź ofertę</a>
+                </div>
+                <div class="separator"></div>
+            </section>
+            <section class="homepage__advantages">
+                <div class="decorator__shape--double left">
+                    <div class="large">
+                        <div class="small"></div>
                     </div>
                 </div>
-            </div>
-            <img src="../dist/img/homepage/homepage__advantages__img.png" alt="" class="advantages__img">
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="footer__top">
-            <img src="../dist/img/footer__img.png" alt="" class="footer__img">
-        </div>
-        <div class="footer__bottom">
-            <div class="container">
-                <div class="footer__boxes">
-                    <div class="footer__box">
-                        <img src="../dist/img/logo.svg" alt="" class="footer__logo">
-                    </div>
-                    <div class="footer__box">
-                        <h2 class="footer__heading">Kontakt</h2>
-                        <p class="footer__mail">
-                            <img src="../dist/img/icon__mail.svg" alt="" class="footer__icon">
-                            <a href="mailto:biuro@finali.com.pl">biuro@finali.com.pl</a>
-                        </p>
-                        <p class="footer__phone">
-                            <img src="../dist/img/icon__phone.svg" alt="" class="footer__icon">
-                            <a href="tel:+48501122686">501 122 686</a>
-                        </p>
-                    </div>
-                    <div class="footer__box">
-                        <h2 class="footer__heading">Adres</h2>
-                        <p class="footer__address">
-                            <img src="../dist/img/icon__address.svg" alt="" class="footer__icon">
-                            <span>
-                                ul. Przemyska 39B/2
-                                <br>
-                                80-180 Gdańsk
-                            </span>
-                        </p>
-                    </div>
-                    <div class="footer__box">
-                        <h2 class="footer__heading">
-                            Inne
+                <div class="advantages__group">
+                    <div class="advantages__content">
+                        <h2 class="heading advantages__heading">
+                            Co nas wyróżnia
                         </h2>
-                        <a href="#" class="footer__link">Polityka Prywatności</a>
-                        <a href="#" class="footer__link">Cookies</a>
+                        <div class="advantages__boxes">
+                            <div class="advantages__row">
+                                <div class="advantages__box">
+                                    <img src="../dist/img/homepage/homepage__advantages__icon--1.svg" alt=""
+                                        class="box__icon">
+                                    <h3 class="box__heading">Bogate doświadczenie</h3>
+                                    <p class="box__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                        sed
+                                        do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                </div>
+                                <div class="advantages__box">
+                                    <img src="../dist/img/homepage/homepage__advantages__icon--2.svg" alt=""
+                                        class="box__icon">
+                                    <h3 class="box__heading">Dążenie do celu</h3>
+                                    <p class="box__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                        sed
+                                        do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                </div>
+                            </div>
+                            <div class="advantages__row">
+                                <div class="advantages__box">
+                                    <img src="../dist/img/homepage/homepage__advantages__icon--3.svg" alt=""
+                                        class="box__icon">
+                                    <h3 class="box__heading">Indywidualne podejście</h3>
+                                    <p class="box__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                        sed
+                                        do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                </div>
+                                <div class="advantages__box">
+                                    <img src="../dist/img/homepage/homepage__advantages__icon--4.svg" alt=""
+                                        class="box__icon">
+                                    <h3 class="box__heading">Bezpłatna konsultacja</h3>
+                                    <p class="box__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                        sed
+                                        do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="footer__box">
-                        <h2 class="footer__heading">
-                            Media społecznościowe
-                        </h2>
-                        <div class="footer__social">
-                            <p>Znajdź nas: </p>
-                            <div class="footer__social__icons">
-                                <a href="#">
-                                    <img src="../dist/img/icon__fb.svg" alt="" class="social__img">
-                                </a>
-                                <a href="#">
-                                    <img src="../dist/img/icon__tw.svg" alt="" class="social__img">
-                                </a>
-                                <a href="#">
-                                    <img src="../dist/img/icon__ig.svg" alt="" class="social__img">
-                                </a>
+                </div>
+                <img src="../dist/img/homepage/homepage__advantages__img.png" alt="" class="advantages__img">
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__top">
+                <img src="../dist/img/footer__img.png" alt="" class="footer__img">
+            </div>
+            <div class="footer__bottom">
+                <div class="container">
+                    <div class="footer__boxes">
+                        <div class="footer__box">
+                            <img src="../dist/img/logo.svg" alt="" class="footer__logo">
+                        </div>
+                        <div class="footer__box">
+                            <h2 class="footer__heading">Kontakt</h2>
+                            <p class="footer__mail">
+                                <img src="../dist/img/icon__mail.svg" alt="" class="footer__icon">
+                                <a href="mailto:biuro@finali.com.pl">biuro@finali.com.pl</a>
+                            </p>
+                            <p class="footer__phone">
+                                <img src="../dist/img/icon__phone.svg" alt="" class="footer__icon">
+                                <a href="tel:+48501122686">501 122 686</a>
+                            </p>
+                        </div>
+                        <div class="footer__box">
+                            <h2 class="footer__heading">Adres</h2>
+                            <p class="footer__address">
+                                <img src="../dist/img/icon__address.svg" alt="" class="footer__icon">
+                                <span>
+                                    ul. Przemyska 39B/2
+                                    <br>
+                                    80-180 Gdańsk
+                                </span>
+                            </p>
+                        </div>
+                        <div class="footer__box">
+                            <h2 class="footer__heading">
+                                Inne
+                            </h2>
+                            <a href="#" class="footer__link">Polityka Prywatności</a>
+                            <a href="#" class="footer__link">Cookies</a>
+                        </div>
+                        <div class="footer__box">
+                            <h2 class="footer__heading">
+                                Media społecznościowe
+                            </h2>
+                            <div class="footer__social">
+                                <p>Znajdź nas: </p>
+                                <div class="footer__social__icons">
+                                    <a href="#">
+                                        <img src="../dist/img/icon__fb.svg" alt="" class="social__img">
+                                    </a>
+                                    <a href="#">
+                                        <img src="../dist/img/icon__tw.svg" alt="" class="social__img">
+                                    </a>
+                                    <a href="#">
+                                        <img src="../dist/img/icon__ig.svg" alt="" class="social__img">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="footer__copyrights">
-            <div class="container">
-                <div class="copyrights__wrapper">
-                    <p class="copyrights">
-                        &copy; 2019 all rights reserved
-                    </p>
-                    <p class="author">
-                        <a href="https://websitestyle.pl">Websitestyle - Strony WWW</a>
-                    </p>
+            <div class="footer__copyrights">
+                <div class="container">
+                    <div class="copyrights__wrapper">
+                        <p class="copyrights">
+                            &copy; 2019 all rights reserved
+                        </p>
+                        <p class="author">
+                            <a href="https://websitestyle.pl">Websitestyle - Strony WWW</a>
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
-    <script src="../dist/js/hamburger.js"></script>
+        </footer>
+        <script src="../dist/js/hamburger.js"></script>
+    </div>
 </body>
 
 </html>
