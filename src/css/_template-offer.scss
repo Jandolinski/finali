@@ -47,8 +47,9 @@
 
   .decorator__shape--double {
     position: absolute;
-    right: -5%;
+    right: -160px;
     top: 12%;
+    z-index: -1;
 
     .large,
     .small {
@@ -64,8 +65,8 @@
   position: relative;
 
   .offer__cover {
-    width: 2557px;
-    height: 2556px;
+    width: 150vw;
+    height: 150vw;
     background-color: #f4f4f4;
     border-radius: 182px;
     position: absolute;
@@ -74,13 +75,13 @@
     opacity: .27;
 
     &.right {
-      top: -54px;
-      right: -91%;
+      top: -24%;
+      right: -100%;
     }
 
     &.left {
-      top: -54px;
-      left: -91%;
+      top: -24%;
+      left: -100%;
     }
   }
 
@@ -99,13 +100,16 @@
 
         .decorator__shape--double.left {
           position: absolute;
-          left: -15%;
+          left: -250px;
+          top: 0%;
+          z-index: -1;
         }
 
         .decorator__shape--double.right {
           position: absolute;
-          right: -15%;
+          right: -160px;
           bottom: 10%;
+          z-index: -1;
         }
       }
 

@@ -1,12 +1,12 @@
 .about__cover {
-  width: 2557px;
-  height: 2556px;
+  width: 100vw;
+  height: 100vw;
   background-color: #f4f4f4;
   border-radius: 182px;
   position: absolute;
   z-index: 1;
-  top: -125%;
-  right: -111%;
+  top: -67%;
+  right: -76%;
   transform: rotate(45deg);
   opacity: 0.28;
 }
@@ -16,17 +16,20 @@
   display: flex;
   justify-content: flex-end;
   margin: 0 !important;
+  position: relative;
 
   .decorator__shape--single {
     position: absolute;
-    right: -5%;
+    right: -160px;
     bottom: -20%;
+    z-index: 1;
   }
 
   .decorator__shape--double {
     position: absolute;
-    left: -9%;
+    left: -160px;
     bottom: -19%;
+    z-index: 1;
   }
 
   .about {

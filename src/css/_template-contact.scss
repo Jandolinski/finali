@@ -1,6 +1,4 @@
 .contact__cover {
-
-
     width: 100vw;
     height: 100vw;
     background-color: #f4f4f4;
@@ -26,14 +24,15 @@
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        right: -5%;
+        right: -120px;
+        z-index: -1;
     }
 
     .decorator__shape--single {
         position: absolute;
-        bottom: -82px;
+        bottom: -102px;
         left: 84px;
-
+        z-index: -1;
     }
 
     .contact {
